@@ -38,5 +38,6 @@ Before running the application, make sure you have the following installed:
 Download and install Ollama from its official portal. Open your command prompt or terminal and pull the lightweight Llama 3.2 model:
 
 ```bash
-ollama pull llama3.2<img width="1579" height="835" alt="Capture13" src="https://github.com/user-attachments/assets/137b6ff8-e11b-4597-8f29-ef5d0bba2d1b" />
+ollama pull llama3.2
 
+<img width="1579" height="835" alt="Capture13" src="https://github.com/user-attachments/assets/137b6ff8-e11b-4597-8f29-ef5d0bba2d1b" />
