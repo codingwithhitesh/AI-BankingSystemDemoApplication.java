@@ -1,4 +1,4 @@
-package com.hitesh.BankingSystemDemo;
+package com.hitesh.BankingSystemDemoAI;
 
 import org.springframework.web.bind.annotation.*;
 
