@@ -1,4 +1,4 @@
-package com.hitesh.BankingSystemDemoAI;
+package com.hitesh.BankingSystemDemo;
 
 import org.springframework.web.bind.annotation.*;
 
@@ -17,8 +17,17 @@ public class AiController {
     public String askAboutMyAccount(@PathVariable Long id, @RequestParam String msg) {
         return aiService.chatWithCustomerRAG(id, msg);
     }
+
+
+    // Endpoint URL: GET http://localhost:8080/api/ai/chat?message=YourQuestionHere
+    @GetMapping("/chat")
+    public String chatWithBankBot(@RequestParam String message) {
+        return aiService.askGeneralAssistant(message);
+    }
 }
 
+
+//*****************  OLD VERSION  **********************************************************************
 
 // below code is for just paragraph type response, not json
 /*
